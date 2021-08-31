@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import Modal from "./Modal";
 
 function Child () {
+  // handling if we show or not the modal
   const [showModal, setShowModal] = useState(false);
+  // method used to change the status of our state
+  // this method is sent as prop to the Modal component and it works
   const changeShowModal = () => {
     setShowModal(!showModal)
   }

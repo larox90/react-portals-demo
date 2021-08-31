@@ -1,3 +1,14 @@
+# React Postals Demo
+##in this demo we can see an example about how to use Portals in React.
+Portals it's a feature that react has to relocate an specific component to another DOM area, doesn't matter where we are declaring our Portal and what's the component we want to move it, with Portal we can do it.
+
+A clear example for this functionality is for Modals, for example if we are calling a Modal since a very nested Component, we won't want to have this piece of DOM inside of our nested Component, as a Modal is a view that usually is rendered ad the top of our page, we will use Portals to move this call to the top of our DOM.
+
+We will find the changed files for this example in two folders:
+
+1.- _public folder_: here you will find a README explaining the changes done in this path.
+2.- _src folder_: here you will find a README explaining the changes done in this path.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
